@@ -3,7 +3,7 @@ import statistics as s
 print("Mean,Median,Mode,Geometric Mean,Harmonic Mean,Quantiles,Standard Deviation and Variance Calculator")
 data = []  
 n = int(input("Enter number of elements : "))
-print ("Enter",n,"numbers")
+print ("Enter",n+1,"numbers")
 for i in range(0, n+1): 
     raw = int(input()) 
     data.append(raw)      
